@@ -1,0 +1,112 @@
+body{
+    height: 100%;
+    margin: 0;
+    background-color: rgba(2, 37, 25, 0.665);
+
+}
+
+
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+header ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+}
+
+header ul li{
+    margin-left: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.5s;
+    border: hidden;
+}
+
+header ul li:hover{
+    background-color: #c2c2c222;
+}
+
+
+
+
+.character{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.character img{
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid;
+    padding: 15px;
+
+}
+
+.character a{
+ 
+
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 0.7;
+
+}
+
+.character a:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin:0;
+    background-color: #515151;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
